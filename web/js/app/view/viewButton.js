@@ -2,9 +2,9 @@ console.log('Geladenes Modul:')
 console.log('viewStart.js')
 
 define
-(['app/model/modelStart'
+(['../model/modelButton'
   ],
-  function(modelStart
+  function(modelButton
   )
   { "use strict";
 

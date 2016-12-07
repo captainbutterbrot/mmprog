@@ -2,7 +2,7 @@ console.log('Geladenes Modul:')
 console.log('viewBomb.js')
 
 define
-(['app/model/modelBomb'
+(['../model/modelBomb'
   ],
   function(modelBomb
   )

@@ -2,7 +2,7 @@ console.log('Geladenes Modul:')
 console.log('viewFire.js')
 
 define
-( ['app/model/modelFire'],
+( ['../model/modelFire'],
   function(modelFire)
   { "use strict";
 
