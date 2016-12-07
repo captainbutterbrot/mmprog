@@ -1,5 +1,5 @@
 console.log('Geladenes Modul:')
-console.log('modelStart.js')
+console.log('modelButton.js')
 
 define
 ( [],

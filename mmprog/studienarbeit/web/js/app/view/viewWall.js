@@ -2,9 +2,9 @@ console.log('viewWall.js')
 console.log('Geladenes Modul:')
 
 define
-(['app/model/modelwall'
+(['../model/modelWall'
   ],
-  function(modelwall
+  function(modelWall
   )
   { "use strict";
 

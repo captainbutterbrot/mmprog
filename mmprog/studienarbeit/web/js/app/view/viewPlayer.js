@@ -2,7 +2,7 @@ console.log('Geladenes Modul:')
 console.log('viewPlayer.js')
 
 define
-(['app/model/modelPlayer'
+(['../model/modelPlayer'
   ],
   function(modelPlayer
   )

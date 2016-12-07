@@ -1,12 +1,17 @@
-console.log('init.js')
 console.log('Geladenes Modul:')
+console.log('init.js')
 
 define
-(['app/logic/bomberman', 'app/view/viewBomb', 'app/model/modelBomb',
-    'app/model/stage', 'app/model/modelPlayer', 'app/view/viewPlayer', 'app/controller/controlKeyboard',
-    'app/model/modelwall', 'app/view/viewWall', 'app/model/modelStart', 'app/view/viewStart'
+(['logic/bomberman', 'view/viewBomb', 'model/modelBomb',
+    'model/stage', 'model/modelPlayer', 'view/viewPlayer', 'controller/controlKeyboard',
+    'model/modelWall', 'view/viewWall', 'model/modelButton', 'view/viewButton'
   ],
-  function(bomberman, viewBomb, modelBomb, stage, modelPlayer, viewPlayer, controlKeyboard, modelwall, viewWall,
+  function(bomberman,
+           viewBomb, modelBomb,
+           stage,
+           modelPlayer, viewPlayer,
+           controlKeyboard,
+           modelwall, viewWall,
            modelStart, viewStart
   )
   { "use strict";
